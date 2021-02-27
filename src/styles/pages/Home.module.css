@@ -10,8 +10,22 @@
 
 .container section {
   flex: 1;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6.25rem;
+
   align-content: center;
+}
+
+@media (max-width: 805px) {
+  .container section {
+    padding-top: 10%;
+    max-width: 500px;
+
+    grid-template-columns: auto;
+    grid-gap: 4.25rem;
+
+    align-self: center;
+  }
 }
