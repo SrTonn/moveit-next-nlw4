@@ -61,7 +61,6 @@ export function ChallengesProvider({
 
   function closeLevelUpModal() {
     setIsLevelUpModalOpen(false)
-
   }
 
   function startNewChallenge() {
