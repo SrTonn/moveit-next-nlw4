@@ -89,7 +89,7 @@
   border: 0;
   border-radius: 5px;
 
-  color: var(--white);
+  color: #fff;
 
   font-size: 1rem;
   font-weight: 600;
@@ -107,4 +107,14 @@
 
 .challengeActive footer button:hover {
   filter: brightness(0.9);
+}
+
+@media (max-width: 805px) {
+  .challengeActive main {
+    margin-top: 1.6rem;
+  }
+
+  .challengeActive main p {
+    margin-bottom: 1.6rem;
+  }
 }
